@@ -26,6 +26,7 @@
 
 ```bash
 pip install torch jieba sacrebleu tqdm nltk
+```
 
 ---
 
@@ -35,18 +36,22 @@ pip install torch jieba sacrebleu tqdm nltk
 
 ```bash
 python train.py gru
+```
 
 2. 训练Transformer：
 
 ```bash
 python train.py trans
+```
 
 3. 运行PE对比实验：
 
 ```bash
 python train.py compare
+```
 
 4. 推理：
 
 ```bash
 python inference.py --model gru --ckpt ./ckpts/gru.pt
+```
