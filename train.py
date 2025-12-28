@@ -184,8 +184,7 @@ def compare_pe():
 if __name__ == '__main__':
     import sys
 
-    # mode = sys.argv[1] if len(sys.argv) > 1 else 'gru'
-    mode = cfg.train.mode
+    mode = sys.argv[1] if len(sys.argv) > 1 else 'gru'
 
     if mode == 'gru':
         train_gru()
